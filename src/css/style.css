@@ -15,16 +15,19 @@ p {
 }
 button {
     background: #F3D403;
-    color:black;
+    color:#29294a;
+    font-weight: bold;
     font-size: 20px;
     height: 30px;
-    margin: 0 20px;
+    margin: 30px 20px;
+    
 }
- 
+.logo {
+    height: 300px;
+    width: 300px; 
+     padding-left: 500px; 
+} 
 
-header {
-height:100px;
-}
 
 section {
     height: 300px;

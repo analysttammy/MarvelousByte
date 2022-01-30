@@ -1,0 +1,35 @@
+body {
+    background-image: url(../public/img/spiderBackground.jpg);
+    color: #F3D403;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    display: inline-block;
+    padding-left: 120px;
+}
+
+button {
+    background: #F3D403;
+    color: #29294a;
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+    margin: 30px 20px;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+    padding-left: 500px;
+}
+
+section {
+    height: 300px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}

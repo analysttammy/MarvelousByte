@@ -1,5 +1,6 @@
 
 body {
+    text-align: center;
     background-image: url(../img/backgroundp.jpeg);
     color: #F3D403;
 }
@@ -7,11 +8,19 @@ h1 {
     font-size: 40px;
 
 }
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif; 
+    padding-bottom: 60px;
+}
 
 p {
     display: inline-block;
     padding-left: 120px;
-    
+    font-family: 'Open Sans', sans-serif; 
+}
+p:hover {
+    cursor: pointer;
+    color: white;
 }
 button {
     background: #F3D403;
@@ -19,23 +28,30 @@ button {
     font-weight: bold;
     font-size: 20px;
     height: 30px;
-    margin: 30px 20px;
+    margin: 80px 70px;
+    border-radius: 5px;
+    margin-top: 50px;
     
+}
+button:hover {
+    cursor:pointer;
+    border: 2px solid #F0131E;
 }
 .logo {
     height: 300px;
     width: 300px; 
-     padding-left: 500px; 
+     padding-left: 0px; 
 } 
 
 
-section {
-    height: 300px;
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    float: left;
+    background-color: black;
+    color: white;
     text-align: center;
 }
-
-
-
 

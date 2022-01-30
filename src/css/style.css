@@ -20,9 +20,13 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+body {
+    background-color: #e429f2;
+    color: #F3D403;
+}
+h1 {
+    font-size: 40px;
 
-h1, h2, h3 {
-text-align: center;
 }
 
 p {
